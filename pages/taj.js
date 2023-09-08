@@ -122,7 +122,7 @@ export default function Home() {
 
   const influencersRecords = influencersData.map((item, index) => {
     return (
-      <Tilt>
+      <Tilt key={index}>
         <div className="h-[450px] border-2 border-orange-500 rounded-md shadow-md shadow-orange-400">
           <img
             src={item.img}
