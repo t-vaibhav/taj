@@ -1,0 +1,396 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+.service {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* margin: auto; */
+}
+
+/* .service img {
+    @apply md: h-full;
+} */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-padding: 2vh;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #0d0d0d;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: linear-gradient(128.89deg, #ffb701d2 27.68%, #ff311ea4 99.41%);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  border-radius: 5px;
+  background: linear-gradient(128.89deg, #ffb701 27.68%, #ff311e 99.41%);
+}
+
+* {
+  font-family: "Kanit", "sans-serif";
+  /* @apply font-inter; */
+  scroll-behavior: smooth !important;
+}
+
+.swiper-pagination .swiper-pagination-bullet .swiper-pagination-bullet-active {
+  background-color: #000 !important;
+  color: #000 !important;
+}
+
+.watchtime {
+  /* grid-column: span 1 / span 1; */
+  grid-column: span 2 / span 2;
+}
+
+@media screen and (min-width: 768px) {
+  .watchtime {
+    grid-column: span 1 / span 1;
+  }
+}
+
+.content-rev {
+  flex-direction: row-reverse;
+}
+
+.first-div {
+  flex-direction: row !important;
+}
+
+.second-div {
+  flex-direction: row-reverse !important;
+}
+
+/* vaibhav */
+.no-tilt {
+  rotate: 2deg !important;
+  background: linear-gradient(128.89deg, #ffb701 27.68%, #ff311e 99.41%);
+  border-radius: 8px;
+}
+
+.tilt2 {
+  background: linear-gradient(128.89deg, #ffb701 27.68%, #ff311e 99.41%);
+  border-radius: 8px;
+}
+
+.bgGrad {
+  background: linear-gradient(128.89deg, #e3ad24 27.68%, #ff311e 99.41%);
+  border-radius: 8px;
+}
+
+.tilt3 {
+  background: linear-gradient(128.89deg, #ffb701 27.68%, #ff311e 99.41%);
+  border-radius: 8px;
+}
+
+.tilt4 {
+  background: linear-gradient(128.89deg, #ffb701 27.68%, #ff311e 99.41%);
+  border-radius: 8px;
+}
+
+.play {
+  color-scheme: linear-gradient(128.89deg, #ffb701 27.68%, #ff311e 99.41%);
+  /* color: #FFB701; */
+}
+
+.tilt2:hover {
+  background: black;
+  border-radius: 8px;
+}
+
+.no-tilt2 {
+  rotate: 4deg !important;
+  background: #000;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.no-tilt3 {
+  rotate: 4deg !important;
+  background: #000;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.no-tilt4 {
+  rotate: 2deg !important;
+  background: #000;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.no-tilt2:hover {
+  rotate: 4deg !important;
+  background: linear-gradient(
+    128.89deg,
+    #ffb701 27.68%,
+    #ff311e 99.41%
+  ) !important;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.no-tilt22 {
+  rotate: 4deg !important;
+  background: linear-gradient(
+    128.89deg,
+    #ffb701 27.68%,
+    #ff311e 99.41%
+  ) !important;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.tilt3 {
+  rotate: -4deg !important;
+}
+
+.tilt4 {
+  rotate: -2deg !important;
+}
+
+.cta-btn {
+  background: linear-gradient(146.69deg, #ffb701 8.85%, #ff341e 72.01%);
+}
+.hero-text {
+  background: linear-gradient(146.69deg, #ffb701 8.85%, #ff341e 72.01%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: "Kanit", sans-serif !important;
+  text-fill-color: transparent;
+}
+
+.navbar {
+  border: none !important;
+}
+
+.footer {
+  background: linear-gradient(128.89deg, #ffb701 27.68%, #ff311e 99.41%);
+}
+
+HTML CSS BabelResult Skip Results Iframe EDIT ON
+/* Slideshow */
+
+.slideshow {
+  margin: 0 auto;
+  overflow: hidden;
+  max-width: 500px;
+}
+
+.slideshowSlider {
+  white-space: nowrap;
+  transition: ease 1000ms;
+}
+
+.slide {
+  overflow: hidden;
+  display: inline-block;
+  height: auto;
+  width: 100%;
+}
+
+/* Buttons */
+
+/* lordicon */
+
+lord-icon {
+  width: 100%;
+  height: 100%;
+}
+.bg-white-imp {
+  /* background-color: white; */
+  background: linear-gradient(
+    128.89deg,
+    #d7be7e 27.68%,
+    #fd9a91 99.41%
+  ) !important;
+}
+
+.bg-white-impp {
+  /* background-color: white; */
+  background: linear-gradient(
+    128.89deg,
+    #d1cab6 27.68%,
+    #cac6aa 99.41%
+  ) !important;
+}
+
+.accordion-outer {
+  background-color: black !important;
+  color: white !important;
+  border: 1px solid white;
+  --tw-border-opacity: 1;
+  border-color: rgb(249 115 22 / var(--tw-border-opacity));
+}
+.accordion-icon {
+  color: white !important;
+}
+.text-2xll {
+  font-size: 1.5rem /* 24px */ !important;
+  line-height: 2rem /* 32px */ !important;
+}
+.text-basee {
+  font-size: 1rem /* 16px */ !important;
+  line-height: 1.5rem /* 24px */ !important;
+}
+.font-kanitt {
+  font-family: Kanit, sans-serif !important;
+}
+.font-molengoo {
+  font-family: Poppins, sans-serif !important;
+}
+
+.grad-text {
+  background: linear-gradient(146.69deg, #ffb701 8.85%, #ff341e 72.01%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: "Kanit", sans-serif !important;
+  /* text-fill-color: transparent; */
+}
+
+/* CustomSwiper.css (or CustomSwiper.module.css if using CSS Modules) */
+/* Example styles, adjust as needed */
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background-color: #ffffff !important;
+  opacity: 0.6;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.swiper-pagination-bullet-active {
+  width: 14px;
+  height: 14px;
+  background-color: #ffd900;
+  opacity: 1;
+}
+
+.active-slide {
+  scale: 1.1 !important;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.not-active-slide {
+  scale: 0.5 !important;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.faq-shadow {
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1) !important;
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color),
+    0 2px 4px -2px var(--tw-shadow-color) !important;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
+  --tw-shadow-color: #fb923c !important;
+  --tw-shadow: var(--tw-shadow-colored) !important;
+}
+
+@media only screen and (max-width: 1024px) {
+  .active-slide {
+    scale: 1 !important;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .not-active-slide {
+    scale: 0.7 !important;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+.swipeslide {
+  height: auto !important;
+  @apply grid items-center;
+}
+
+@keyframes bounceRight {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(10px); /* Adjust the distance of the bounce */
+  }
+}
+@keyframes bounceLeft {
+  0%,
+  100% {
+    transform: translateX(10px);
+  }
+  50% {
+    transform: translateX(0); /* Adjust the distance of the bounce */
+  }
+}
+
+.swiper-button-next {
+  color: rgb(255, 255, 255) !important;
+  font-weight: 900;
+  position: relative;
+  animation: bounceRight 1.5s infinite;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.swiper-button-prev {
+  color: rgb(255, 255, 255) !important;
+  font-weight: 900;
+  position: relative;
+  animation: bounceLeft 1.5s infinite;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+@media only screen and (max-width: 768px) {
+  .swiper-button-next {
+    color: rgb(255, 255, 255) !important;
+    font-weight: 900;
+    scale: 0.7;
+    position: relative;
+    animation: bounceRight 1.5s infinite;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  .swiper-button-prev {
+    scale: 0.7;
+    color: rgb(255, 255, 255) !important;
+    font-weight: 900;
+    position: relative;
+    animation: bounceLeft 1.5s infinite;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+}
+
+@keyframes popUp {
+  0%,
+  100% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(0.9); /* Adjust the distance of the bounce */
+  }
+}
+
+/* .popping-text {
+  animation: popUp 3.5s infinite;
+  text-shadow: rgba(111, 120, 111, 0.616) 10px 0 10px;
+} */
+
+.big-text {
+  font-size: 20px !important;
+  padding: 10px 0 !important;
+  color: rgb(255, 255, 255) !important;
+  font-weight: 500 !important;
+}
