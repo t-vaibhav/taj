@@ -468,7 +468,7 @@ export default function Home() {
         {/* vaibhav */}
         <div className="space-y-10">
           <Clients />
-          <Portfolio />
+          {/* <Portfolio /> */}
           {/* <Growon /> */}
           <Stats />
           <Results2 />
