@@ -71,14 +71,14 @@ export default function Home() {
     },
     {
       name: "Creater",
-      img: "/03.jpg",
+      img: "/03.JPG",
       insta: "",
       facebook: "",
       linkedin: "",
     },
     {
       name: "Creater",
-      img: "/04.jpg",
+      img: "/04.JPG",
       insta: "",
       facebook: "",
       linkedin: "",
@@ -106,7 +106,7 @@ export default function Home() {
     },
     {
       name: "Creater",
-      img: "/08.jpg",
+      img: "/08.JPG",
       insta: "",
       facebook: "",
       linkedin: "",
