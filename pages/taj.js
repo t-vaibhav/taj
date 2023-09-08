@@ -133,15 +133,15 @@ export default function Home() {
               {item.name}
             </h1>
             <div className="flex justify-center space-x-5 pt-1">
-              <Link href="/taj">
+              <a href="/taj">
                 <InstagramIcon className="text-4xl text-red-500" />
-              </Link>
-              <Link href="/taj">
+              </a>
+              <a href="/taj">
                 <LinkedInIcon className="text-4xl text-red-500" />
-              </Link>
-              <Link href="/taj">
+              </a>
+              <a href="/taj">
                 <FacebookIcon className="text-4xl text-red-500" />
-              </Link>
+              </a>
             </div>
           </div>
         </div>
@@ -271,15 +271,15 @@ export default function Home() {
         <div className="bg-black text-white">
           <div className="max-w-screen-xl mx-auto">
             {/* hero section starts */}
-            <div className="h-[100vh] grid grid-cols-12 gap-5 border-b-[6px] border-yellow-500">
-              <div className="col-span-5 text-7xl font-bold flex items-center ">
+            <div className="h-[100vh] grid grid-cols-12 gap-5 border-b-[6px] border-yellow-500 px-5">
+              <div className="col-span-12 md:col-span-6 xl:col-span-5 text-5xl pt-40 pb-5 md:pt-0 md:text-5xl lg:text-6xl 2xl:text-7xl font-bold flex items-center ">
                 <div className="space-y-5 ">
                   <h1 className="text-yellow-500">One Day </h1>
                   <h1 className=" hero-text">Taj Mahal Trip </h1>
                   <h1 className="text-yellow-500">With Creators</h1>
                 </div>
               </div>
-              <div className="col-span-7 my-auto pl-10">
+              <div className="col-span-12 md:col-span-6 xl:col-span-7 my-auto xl:pl-10">
                 <div className="">
                   {/* <div className=" flex justify-center items-center h-[50vh] md:h-[50vh] ">
                     <Swiper
@@ -329,11 +329,11 @@ export default function Home() {
             {/* hero section ends */}
 
             {/* about us section start */}
-            <div className="py-10">
-              <h1 className=" text-3xl md:text-5xl font-bold font-kanit py-10">
+            <div className="py-10 px-4">
+              <h1 className="text-3xl md:text-5xl font-bold font-kanit py-10">
                 About <span className="hero-text ">The Trip</span>
               </h1>
-              <div className="text-2xl space-y-5">
+              <div className="text-lg md:text-2xl space-y-5">
                 <p>
                   Ayushman Pandita and Growth Rocket are organising a one day
                   community trip to Taj Mahal on 23rd September. We will be
@@ -412,13 +412,6 @@ export default function Home() {
                 </SwiperSlide>
                 <SwiperSlide className="relative">
                   <img
-                    src="/taj/taj4.jpg"
-                    alt="taj"
-                    className="object-cover h-[50vh] md:h-[80vh] w-[100vw]"
-                  />
-                </SwiperSlide>
-                <SwiperSlide className="relative">
-                  <img
                     src="/taj/taj5.jpg"
                     alt="taj"
                     className="object-cover h-[50vh] md:h-[80vh] w-[100vw]"
@@ -450,7 +443,7 @@ export default function Home() {
             {/* images 2 end */}
 
             {/* itenary section start */}
-            <div className="py-20 ">
+            <div className="py-20 px-4">
               <h1 className=" text-3xl md:text-5xl font-bold font-kanit py-10">
                 All day <span className="hero-text ">Itenary</span>
               </h1>
@@ -654,7 +647,7 @@ export default function Home() {
             {/* itenary section end */}
 
             {/* brands section start */}
-            <div className="py-10">
+            <div className="py-10 px-4">
               <h1 className=" text-3xl md:text-5xl font-bold font-kanit py-10">
                 Our <span className="hero-text ">Partners</span>
               </h1>
@@ -719,32 +712,48 @@ export default function Home() {
             {/* brands section end */}
 
             {/* influencers start */}
-            <div className="py-10">
+            <div className="py-10 px-5">
               <h1 className=" text-3xl md:text-5xl font-bold font-kanit py-10">
                 Your Favourite <span className="hero-text ">Influencers</span>
               </h1>
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10">
                 {influencersRecords}
+                <div className="h-[450px] border-2 border-orange-500 rounded-md shadow-md shadow-orange-400">
+                  <img
+                    src="/01.jpg"
+                    className="rounded-md  border-b-2 border-white object-cover h-4/5"
+                  />
+                  <div className="h-1/5 p-2">
+                    <h1 className="text-3xl font-bold text-yellow-500 text-center">
+                      The Kanya
+                    </h1>
+                    <div className="flex justify-center space-x-5 pt-1">
+                      <InstagramIcon className="text-4xl text-red-500" />
+                      <LinkedInIcon className="text-4xl text-red-500" />
+                      <FacebookIcon className="text-4xl text-red-500" />
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
             {/* influencers end */}
 
             {/* pricing section starts */}
-            <div className="py-5">
+            <div className="py-5 px-5">
               <h1 className=" text-3xl md:text-5xl font-bold font-kanit py-10">
                 The <span className="hero-text ">Pricing</span>
               </h1>
               {/* <h1 className="text-5xl text-yellow-500 font-bold text-center">
                 BOOK YOUR SEAT NOW FOR Rs. 499 ONLY!
               </h1> */}
-              <div className=" border border-orange-500 -rotate-2 mt-8 w-full rounded-[8px] mx-3 mx-auto">
+              <div className=" border border-orange-500 -rotate-2 mt-8 w-full rounded-[8px]">
                 <div className="py-10 lg:px-10 lg:flex flex-row space-y-10 lg:space-y-0 justify-between w-full no-tilt   items-center">
                   <h1 className="md:text-5xl sm:text-3xl text-2xl w-full text-black font-extrabold font-kanit capitalize text-center popping-text ">
                     BOOK YOUR SEAT NOW FOR Rs. 499 ONLY!
                   </h1>
                 </div>
               </div>
-              <div className="text-4xl py-20 space-y-3">
+              <div className="text-xl md:text-4xl py-20 space-y-3">
                 {/* <h2 className="text-red-500 font-bold">
                   What will I get as a part of this booking?
                 </h2> */}
@@ -752,7 +761,7 @@ export default function Home() {
                   What will I get as a{" "}
                   <span className="hero-text ">part of this booking?</span>
                 </h1>
-                <div className="pl-10 space-y-3 ">
+                <div className="pl-5 md:pl-10 space-y-3 ">
                   <li>Bus travel between Delhi and Agra</li>
                   <li>Taj Mahal entry tickets</li>
                   <li>Snacks and munchies</li>
@@ -760,7 +769,7 @@ export default function Home() {
                   <li>Experience of a lifetime</li>
                 </div>
               </div>
-              <div className=" border border-orange-500 -rotate-2 mt-20 w-full rounded-[8px] mx-3 mx-auto">
+              <div className=" border border-orange-500 -rotate-2 mt-20 w-full rounded-[8px] mx-auto">
                 <div className="py-10 lg:px-10 lg:flex flex-row space-y-10 lg:space-y-0 justify-between w-full no-tilt   items-center">
                   <h1 className="md:text-5xl sm:text-3xl text-2xl w-full text-black font-extrabold font-kanit capitalize text-center popping-text ">
                     <p> We have only 100 seats available.</p>
