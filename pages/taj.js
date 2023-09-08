@@ -133,15 +133,15 @@ export default function Home() {
               {item.name}
             </h1>
             <div className="flex justify-center space-x-5 pt-1">
-              <a href="/taj">
+              <Link href="/taj">
                 <InstagramIcon className="text-4xl text-red-500" />
-              </a>
-              <a href="/taj">
+              </Link>
+              <Link href="/taj">
                 <LinkedInIcon className="text-4xl text-red-500" />
-              </a>
-              <a href="/taj">
+              </Link>
+              <Link href="/taj">
                 <FacebookIcon className="text-4xl text-red-500" />
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -725,22 +725,6 @@ export default function Home() {
               </h1>
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10">
                 {influencersRecords}
-                <div className="h-[450px] border-2 border-orange-500 rounded-md shadow-md shadow-orange-400">
-                  <img
-                    src="/01.jpg"
-                    className="rounded-md  border-b-2 border-white object-cover h-4/5"
-                  />
-                  <div className="h-1/5 p-2">
-                    <h1 className="text-3xl font-bold text-yellow-500 text-center">
-                      The Kanya
-                    </h1>
-                    <div className="flex justify-center space-x-5 pt-1">
-                      <InstagramIcon className="text-4xl text-red-500" />
-                      <LinkedInIcon className="text-4xl text-red-500" />
-                      <FacebookIcon className="text-4xl text-red-500" />
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
             {/* influencers end */}
