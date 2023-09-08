@@ -133,15 +133,15 @@ export default function Home() {
               {item.name}
             </h1>
             <div className="flex justify-center space-x-5 pt-1">
-              <a href="/taj">
+              <Link href="/taj">
                 <InstagramIcon className="text-4xl text-red-500" />
-              </a>
-              <a href="/taj">
+              </Link>
+              <Link href="/taj">
                 <LinkedInIcon className="text-4xl text-red-500" />
-              </a>
-              <a href="/taj">
+              </Link>
+              <Link href="/taj">
                 <FacebookIcon className="text-4xl text-red-500" />
-              </a>
+              </Link>
             </div>
           </div>
         </div>
