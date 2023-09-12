@@ -394,3 +394,7 @@ lord-icon {
   color: rgb(255, 255, 255) !important;
   font-weight: 500 !important;
 }
+
+.text-shadow {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
