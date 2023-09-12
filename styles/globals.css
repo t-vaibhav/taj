@@ -398,3 +398,14 @@ lord-icon {
 .text-shadow {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
+
+.bouncing-arrow {
+  font-size: 1.875rem !important;
+}
+
+/* Media query for md breakpoint */
+@media (min-width: 768px) {
+  .bouncing-arrow {
+    font-size: 3rem !important;
+  }
+}

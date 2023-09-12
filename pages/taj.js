@@ -60,8 +60,8 @@ export default function Home() {
   const influencersData = [
     {
       name: "Ayushman Pandita",
-      img: "/taj/creaters/ayushman.png",
-      desc: "Instagram 200K+",
+      img: "/taj/creaters/ayushman.jpeg",
+      desc: "Insta & Youtube 500K+",
       insta: "",
       facebook: "",
       linkedin: "",
@@ -110,6 +110,14 @@ export default function Home() {
       name: "Divyanshi Singhal",
       img: "/taj/creaters/divyanshi.jpeg",
       desc: "Instagram 10K+",
+      insta: "",
+      facebook: "",
+      linkedin: "",
+    },
+    {
+      name: "Ananya Narang",
+      img: "/taj/creaters/ananya.jpeg",
+      desc: "LinkedIn 100K+",
       insta: "",
       facebook: "",
       linkedin: "",
@@ -326,7 +334,7 @@ export default function Home() {
           <div className=" text-[#f5f5f5]  text-shadow  absolute top-[80%] md:top-[85%] left-[50%] -translate-x-1/2 -translate-y-1/2 z-20 text-3xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-center ">
             <h1 className="md:pb-3 w-[90vw]"> One Day Taj Mahal Trip </h1>
             <h1 className="text-red-500"> With Creaters </h1>
-            <ExpandMoreIcon className="text-3xl md:text-5xl animate-bounce text-shadow" />
+            <ExpandMoreIcon className="text-3xl md:text-5xl bouncing-arrow animate-bounce text-shadow" />
           </div>
         </div>
 
@@ -402,17 +410,13 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div>
-                <div
-                  className="flex justify-center py-10"
-                  onClick={() => {
-                    setOpenPopUp(true);
-                  }}
-                >
+
+              <div className="flex justify-center py-5">
+                <Link href="#trip-pricing">
                   <button className="bg-[#FF351F] text-sm px-4 sm:text-lg md:text-xl  py-2  text-gray-900 sm:px-5 rounded-sm  font-semibold">
                     Book Tickets
                   </button>
-                </div>
+                </Link>
               </div>
             </div>
             {/* about us section end */}
@@ -698,13 +702,13 @@ export default function Home() {
             {/* itenary section end */}
 
             {/* brands section start */}
-            <div className="py-10 px-4">
+            {/* <div className="py-10 px-4">
               <h1 className=" text-3xl md:text-5xl font-bold font-kanit py-10">
                 Our <span className="hero-text ">Partners</span>
               </h1>
               <div className="  border border-orange-500 -rotate-2  rounded-[8px] mx-3 mt-5">
                 <div className="py-10 px-0 md:px-10 overflow-visible md:flex flex-row md:space-y-0 justify-between no-tilt items-center">
-                  {/* swiper for size > md starts */}
+                  =
                   <Swiper
                     slidesPerView={"auto"}
                     breakpoints={{
@@ -759,7 +763,7 @@ export default function Home() {
                   </Swiper>
                 </div>
               </div>
-            </div>
+            </div> */}
             {/* brands section end */}
 
             {/* influencers start */}
@@ -775,11 +779,11 @@ export default function Home() {
             {/* influencers end */}
 
             {/* pricing section starts */}
-            <div className="py-16 md:py-20 px-5">
+            <div className="py-16 md:py-20 px-5" id="trip-pricing">
               <div className=" border border-orange-500 -rotate-2 mt-8 w-full rounded-[8px]">
                 <div className="py-10 lg:px-10 lg:flex flex-row space-y-10 lg:space-y-0 justify-between w-full no-tilt   items-center">
                   <h1 className="md:text-5xl sm:text-3xl text-2xl w-full text-black font-extrabold font-kanit capitalize text-center popping-text ">
-                    BOOK YOUR SEAT NOW FOR Rs. 499 ONLY!
+                    BOOK YOUR SEAT NOW FOR ₹ 499 ONLY
                   </h1>
                 </div>
               </div>
@@ -792,7 +796,7 @@ export default function Home() {
                   <li>Bus travel between Delhi and Agra</li>
                   <li>Taj Mahal entry tickets</li>
                   <li>Snacks and munchies</li>
-                  <li>Merchandise from our sponsors</li>
+                  <li>Goodies from our sponsors</li>
                   <li>Experience of a lifetime</li>
                 </div>
               </div>
