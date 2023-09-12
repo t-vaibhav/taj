@@ -60,7 +60,7 @@ export default function Home() {
   const influencersData = [
     {
       name: "Ayushman Pandita",
-      img: "/taj/creaters/Ayushman.png",
+      img: "/taj/creaters/ayushman.png",
       desc: "Instagram 200K+",
       insta: "",
       facebook: "",
@@ -84,7 +84,7 @@ export default function Home() {
     },
     {
       name: "Vassundhara Pandita",
-      img: "/taj/creaters/vasundhara.jpg",
+      img: "/taj/creaters/vasundhara.JPG",
       desc: "Instagram 900K+",
       insta: "",
       facebook: "",
@@ -92,7 +92,7 @@ export default function Home() {
     },
     {
       name: "Kriti Sharma",
-      img: "/taj/creaters/kriti.jpg",
+      img: "/taj/creaters/kriti.JPG",
       desc: "Insta & Youtube 300K+",
       insta: "",
       facebook: "",
